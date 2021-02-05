@@ -1,0 +1,32 @@
+body {
+    display: flex;
+}
+
+.board {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 1;
+    flex-direction: column;
+    height: 50vh;
+    width: 50vw;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+
+.dark {
+    background-color: slategray;
+}
+
+.light {
+    background-color: lightgray;
+}
+
+.square {
+    min-height: 1px;
+    min-width: 1px;
+    flex-basis: 1;
+    flex-grow: 1;
+}
